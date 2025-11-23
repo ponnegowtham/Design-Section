@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #12022f;
+}
+
+.image-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    background-size: cover;
+}
+
+.image-blub {
+    height: 90px;
+    width: 90px;
+}
+
+.design-container {
+    padding: 30px;
+}
+
+.heading {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.design-sub-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.image-size {
+    width: 40px;
+}
+
+.feature-details {
+    margin-left: 20px;
+}
+
+.feature-heading {
+    color: #12022f;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.feature-description {
+    color: #7b8794;
+    font-size: 12px;
+}
+
+@media screen and (min-width:768px) {
+    .bg-container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .image-container {
+        width: 40%;
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-lg-bg.png");
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .image-blub {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .design-container {
+        width: 60%;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .heading {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
